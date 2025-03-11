@@ -4,8 +4,18 @@ return {
 	version = "*",
 	opts = {
 		keymap = {
-			preset = "default",
+			preset = "enter",
 			["<CR>"] = { "select_and_accept", "fallback" },
+		},
+		completion = {
+			keyword = {
+				range = "full",
+			},
+			list = { selection = { preselect = true, auto_insert = true } },
+			documentation = {
+				auto_show = true,
+				auto_show_delay_ms = 500,
+			},
 		},
 		appearance = {
 			use_nvim_cmp_as_default = true,
