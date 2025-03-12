@@ -4,7 +4,7 @@ return {
 	version = "*",
 	opts = {
 		keymap = {
-			preset = "enter",
+			preset = "default",
 			["<CR>"] = { "select_and_accept", "fallback" },
 		},
 		completion = {

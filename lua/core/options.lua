@@ -11,6 +11,8 @@ opt.termguicolors = true
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 opt.cursorlineopt = "number"
+opt.lazyredraw = true
+opt.ttyfast = true
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
